@@ -32,7 +32,7 @@ st.set_page_config(page_title='Stock Price Prediction', # APP NAME FOR BROWSER
                     layout= 'wide' # PAGE LAYOUT
                     )
 
-st.title("Stock Price Prediction 🤑💲") # SET PAGE TITLE
+st.title("Stock Price Prediction ") # SET PAGE TITLE
 # --- END CONFIG PAGE ---
 
 
