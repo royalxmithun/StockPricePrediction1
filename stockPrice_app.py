@@ -301,7 +301,7 @@ def svm_model(forecastDays, userInput):
 
             svr_clf_fit = svr_clf.fit(x_train, y_train)
 
-            stock_price_pred = np.array(stock.drop(['Stock Price'], 1))[forecastDays:]
+            stock_price_pred = np.array(stock.drop(['Stock Price'], axis=1))[forecastDays:]
 
             svr_clf_pred = svr_clf_fit.predict(stock_price_pred)
 
