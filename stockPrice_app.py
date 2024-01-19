@@ -262,7 +262,7 @@ def data_prep(forecastDays, userInput):
             stock = data_preprocess(forecastDays, userInput)
 
             # CREATE X DATASET
-            X_DATA = np.array(stock.drop(['Stock Price']))
+            X_DATA = np.array(stock.drop(['Stock Price'],1))
             X_DATA = X_DATA[:-forecastDays]
 
             # CREATE Y DATASET
