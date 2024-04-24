@@ -59,7 +59,7 @@ with st.expander('🧑‍🏫 INSTRUCTIONS'):
 not_a_recommendation = '''
 - This is not a tool to actually predict stock prices.
 - Do not consult this app for your PERSONAL choices on buying stock.
-- THIS APP IS JUST FOR FUN AND TO TEST MY PERSONAL KNOWLEDGE OF MACHINE LEARNING.
+- THIS APP IS FOR TEST MY PERSONAL KNOWLEDGE OF MACHINE LEARNING.
 
 '''
 
