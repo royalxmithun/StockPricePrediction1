@@ -166,7 +166,7 @@ def line_chart(userInput):
     else: # IF NOT EMPTY
         stock_info = get_stock_data(userInput)
 
-        visual_df = pd.DataFrame(stock_info, columns = ['Open', 'Avg Close'])
+        visual_df = pd.DataFrame(stock_info, columns = ['Open', 'Adj Close'])
 
         return visual_df
 
